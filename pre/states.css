@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+}
+.text {
+  background-color: lightpink;
+}
+.text:hover {
+  background-color: red;
+}
+.text:active {
+  background-color: blue;
+}
+
+input:focus {
+  background-color: lightgray;
+}
+input:active {
+  background-color: red;
+}
+
+a,
+input {
+  display: block;
+}
+a:visited {
+  background-color: red;
+}
