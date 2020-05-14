@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
+
+@media screen and (min-width: 600px) and (max-width: 840px) {
+  body {
+    background-color: green;
+  }
+}
