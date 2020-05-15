@@ -1,6 +1,6 @@
 body,
 html {
-  height: 100%;
+  height: 150%;
   padding: 0;
   margin: 0;
   background-color: lightgray;
@@ -17,10 +17,18 @@ body {
   height: 200px;
   border: 1px black solid;
   display: inline-block;
+  position: relative;
+  top: 200px;
+}
+.box-child {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
 }
 
 /* position */
 #static-box {
+  /* 기본 위치 속성 */
   width: 300px;
   height: 300px;
   background-color: lightblue;
@@ -32,7 +40,7 @@ body {
   background-color: blue;
   position: fixed;
   top: 50px;
-  left: 200px;
+  left: 450px;
 }
 .fixed-child {
   color: red;
